@@ -3,7 +3,7 @@
 """
 Created on Mon Sep  7 19:47:56 2026
 
-@author: jairh
+@author: GRUPO 5
 """
 """
 BIBLIOTECA DE ALGORITMOS Y HERRAMIENTAS DE OPTIMIZACIÓN DE RUTAS
