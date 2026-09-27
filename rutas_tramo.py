@@ -9,8 +9,8 @@ GESTION DE TRAMOS, ORDENAMIENTO Y CAMBIO VORAZ
 """
 
 def crear_tramo(origen, destino, kilometros):
-    #Esta función crea y organiza los datos de un tramo de viaje en un formato estructurado de diccionario.En resumen, 
-    #recibe un punto de partida, un destino y la distancia, asegura que los kilómetros se registren como un número decimal y 
+    #Esta función crea y organiza los datos de un tramo de viaje en un formato estructurado de diccionario. 
+    #Recibe un punto de partida, un destino y la distancia, asegura que los kilómetros se registren como un número decimal y 
     #agrupa toda la información en un solo objeto fácil de usar.
     return {
         "origen": origen,
@@ -19,8 +19,8 @@ def crear_tramo(origen, destino, kilometros):
     }
 
 def calcular_distancia_total(lista_rutas):
-    #calcula la distancia total acumulada de un viaje sumando los kilómetros de cada uno de sus tramos.En resumen, 
-    #recorre una lista de rutas para extraer el valor de los kilómetros de cada sección y devuelve la suma de todo el recorrido.
+    #Calcula la distancia total acumulada de un viaje sumando los kilómetros de cada uno de sus tramos. 
+    #Recorre una lista de rutas para extraer el valor de los kilómetros de cada sección y devuelve la suma de todo el recorrido.
     return sum(tramo["kilometros"] for tramo in lista_rutas)
 
 def ordenamiento_burbuja_tramos(lista_rutas, clave="kilometros"):
